@@ -1,3 +1,140 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primary-color: #272727;
+    --secondary-color: rgba(39, 39, 39, 0.60);
+    --button-color: #E55473;
+    --white-color: #fff;
+}
+
+h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h2 {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h5 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    display: flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+
+/* header starts */
+.banner-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner-container {
+    max-width: 1440px;
+}
+
+.banner-left {
+    /* width: 50%; */
+}
+
+.banner-right {
+    /* width: 50%; */
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+
+}
+
+/* feature starts */
+.feature-container{
+    max-width: 1440px;
+}
+
+.feature-head{
+    text-align: center;
+}
+.flower-tree {
+    display: flex;
+}
+
+.flower-pink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img{
+    width: 310px;
+    height: 428px;
 }
