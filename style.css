@@ -111,30 +111,64 @@ p {
 }
 
 /* feature starts */
-.feature-container{
+.feature-container {
     max-width: 1440px;
 }
 
-.feature-head{
+.feature-head {
     text-align: center;
+
 }
+
 .flower-tree {
     display: flex;
 }
 
+.flower-tree h5 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    
+}
+
 .flower-pink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 464px;
     height: 538px;
     flex-shrink: 0;
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    margin-right: 15px;
 }
 
-.flower-img{
+.flower-red {
+    
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 15px;
+}
+
+.flower-yellow {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+.flower-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 310px;
     height: 428px;
 }
